@@ -1,0 +1,9 @@
+# Enable backfilling buffer for out-of-order records when raw samples are
+# transmitted. This values defines its capacity in seconds.
+backfill_buffer = 86400
+
+# Activated plugins for category sources
+sources = GSN:chain
+
+# Hostname or IP of the Seedlink server.
+sources.GSN.address = 137.227.224.97

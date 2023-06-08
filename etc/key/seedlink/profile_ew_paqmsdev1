@@ -1,0 +1,18 @@
+# Activated plugins for category sources
+sources = paqmsdev1:ewexport
+
+# Hostname or IP of the Earthworm export server.
+sources.paqmsdev1.address = 130.118.86.183
+
+# Port of the Earthworm export server.
+sources.paqmsdev1.port = 64004
+
+# Name of the proc object (defined in streams.xml); used for processing raw
+# streams (streams submitted by a plugin as raw samples).
+sources.paqmsdev1.proc = ewexport
+
+# Text for heartbeat to server.
+sources.paqmsdev1.heartbeat.message = alive
+
+# Rate at which to expect heartbeats from server in seconds.
+sources.paqmsdev1.heartbeat.rate = 60

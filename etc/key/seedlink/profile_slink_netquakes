@@ -1,0 +1,12 @@
+# Enable backfilling buffer for out-of-order records when raw samples are
+# transmitted. This values defines its capacity in seconds.
+backfill_buffer = 86400
+
+# Activated plugins for category sources
+sources = NQ:chain
+
+# Hostname or IP of the Seedlink server.
+sources.NQ.address = 137.227.233.34
+
+# Port of the Seedlink server
+sources.NQ.port = 18010

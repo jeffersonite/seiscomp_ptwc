@@ -1,0 +1,9 @@
+# Enable backfilling buffer for out-of-order records when raw samples are
+# transmitted. This values defines its capacity in seconds.
+backfill_buffer = 86400
+
+# Activated plugins for category sources
+sources = seedlink:chain
+
+# Hostname or IP of the Seedlink server.
+sources.seedlink.address = 166.253.68.108

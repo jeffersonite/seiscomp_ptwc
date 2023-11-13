@@ -1,0 +1,8 @@
+# Activated plugins for category sources
+sources = NEIC:chain
+
+# Hostname or IP of the Seedlink server.
+sources.NEIC.address = 137.227.224.220
+
+# Port of the Seedlink server
+sources.NEIC.port = 18000

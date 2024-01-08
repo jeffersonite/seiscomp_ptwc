@@ -1,5 +1,5 @@
 # Binding references
-global:global_HH
+global:global_HH00
 scautopick:scautopick_LOCAL
-seedlink:slink_neic
+seedlink:slink_iris
 slarchive:slarchive_7days

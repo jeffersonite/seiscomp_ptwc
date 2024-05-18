@@ -1,0 +1,2 @@
+# Defines the filter to be used for picking.
+detecFilter = "RMHP(10)>>BW(4,2,10)>>STALTA(1,6)"

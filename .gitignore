@@ -13,6 +13,7 @@ share/fdsnws/
 share/locsat/
 share/magnitudes/
 share/man/
+share/maps/
 share/plugins/
 share/scalert/
 share/scautoloc/grid.conf
